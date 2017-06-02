@@ -1,6 +1,6 @@
 <ul>
 {% for page in site.pages %}
-  <li><a href="{{ page.url }}">{{ page.url }}</a></li>
+  <li><a href="{{ page.url }}">Foo: {{ page.url }}</a></li>
 {% endfor %}  <!-- page -->
 </ul>
 
