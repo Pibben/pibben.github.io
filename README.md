@@ -1,3 +1,7 @@
+{% for page in site.pages %}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endfor %}  <!-- page -->
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Pibben/pibben.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
