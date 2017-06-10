@@ -1,5 +1,3 @@
----
----
 <ul>
 {% for page in site.projects %}
   <li><a href="{{ page.url }}">Foo: {{ page.url }}</a></li>
