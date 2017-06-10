@@ -1,6 +1,5 @@
-<h2>Projects</h2>
-<ul>
+## Projects
+
 {% for page in site.projects %}
-  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-{% endfor %}  <!-- page -->
-</ul>
+* [page.title](page.url)
+{% endfor %}
