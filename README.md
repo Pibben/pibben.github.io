@@ -1,5 +1,7 @@
+---
+---
 <ul>
-{% for page in site.pages %}
+{% for page in site.projects %}
   <li><a href="{{ page.url }}">Foo: {{ page.url }}</a></li>
 {% endfor %}  <!-- page -->
 </ul>
